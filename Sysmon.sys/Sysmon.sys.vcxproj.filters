@@ -1,0 +1,213 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="cpplib">
+      <UniqueIdentifier>{c03ff512-8920-4e38-b76a-ef373713f0ca}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cpplib\CAssert.h">
+      <Filter>cpplib</Filter>
+    </ClInclude>
+    <ClInclude Include="cpplib\CDebug.h">
+      <Filter>cpplib</Filter>
+    </ClInclude>
+    <ClInclude Include="cpplib\CEResource.h">
+      <Filter>cpplib</Filter>
+    </ClInclude>
+    <ClInclude Include="cpplib\CErrorStatus.h">
+      <Filter>cpplib</Filter>
+    </ClInclude>
+    <ClInclude Include="cpplib\CIntNumber.h">
+      <Filter>cpplib</Filter>
+    </ClInclude>
+    <ClInclude Include="cpplib\CIrp.h">
+      <Filter>cpplib</Filter>
+    </ClInclude>
+    <ClInclude Include="cpplib\CListEntry.h">
+      <Filter>cpplib</Filter>
+    </ClInclude>
+    <ClInclude Include="cpplib\CNPagedLookaside.h">
+      <Filter>cpplib</Filter>
+    </ClInclude>
+    <ClInclude Include="cpplib\CPool.h">
+      <Filter>cpplib</Filter>
+    </ClInclude>
+    <ClInclude Include="cpplib\CppLib.h">
+      <Filter>cpplib</Filter>
+    </ClInclude>
+    <ClInclude Include="cpplib\CDeviceObject.h">
+      <Filter>cpplib</Filter>
+    </ClInclude>
+    <ClInclude Include="cpplib\CDriverObject.h">
+      <Filter>cpplib</Filter>
+    </ClInclude>
+    <ClInclude Include="cpplib\CFileObject.h">
+      <Filter>cpplib</Filter>
+    </ClInclude>
+    <ClInclude Include="cpplib\CIoStackLocation.h">
+      <Filter>cpplib</Filter>
+    </ClInclude>
+    <ClInclude Include="cpplib\CString.h">
+      <Filter>cpplib</Filter>
+    </ClInclude>
+    <ClInclude Include="cpplib\CUnicodeString.h">
+      <Filter>cpplib</Filter>
+    </ClInclude>
+    <ClInclude Include="cpplib\CDriverDispatch.h">
+      <Filter>cpplib</Filter>
+    </ClInclude>
+    <ClInclude Include="cpplib\CVersion.h">
+      <Filter>cpplib</Filter>
+    </ClInclude>
+    <ClInclude Include="CDriverEntry.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CSysmonDispatchEngine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CReportRecord.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cpplib\CFilterDevice.h">
+      <Filter>cpplib</Filter>
+    </ClInclude>
+    <ClInclude Include="cpplib\CAttachDevice.h">
+      <Filter>cpplib</Filter>
+    </ClInclude>
+    <ClInclude Include="CDeviceExtension.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cpplib\CDispatchEngine.h">
+      <Filter>cpplib</Filter>
+    </ClInclude>
+    <ClInclude Include="cpplib\CMiniFltFilter.h">
+      <Filter>cpplib</Filter>
+    </ClInclude>
+    <ClInclude Include="CSysmonMiniFltFilter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CSysmonControl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cpplib\CSysmonBase.h">
+      <Filter>cpplib</Filter>
+    </ClInclude>
+    <ClInclude Include="CSysmonIoControl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Sysmon.sys.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cpplib\CDebug.cpp">
+      <Filter>cpplib</Filter>
+    </ClCompile>
+    <ClCompile Include="cpplib\CEResource.cpp">
+      <Filter>cpplib</Filter>
+    </ClCompile>
+    <ClCompile Include="cpplib\CErrorStatus.cpp">
+      <Filter>cpplib</Filter>
+    </ClCompile>
+    <ClCompile Include="cpplib\CIntNumber.cpp">
+      <Filter>cpplib</Filter>
+    </ClCompile>
+    <ClCompile Include="cpplib\CIrp.cpp">
+      <Filter>cpplib</Filter>
+    </ClCompile>
+    <ClCompile Include="cpplib\CListEntry.cpp">
+      <Filter>cpplib</Filter>
+    </ClCompile>
+    <ClCompile Include="cpplib\CNPagedLookaside.cpp">
+      <Filter>cpplib</Filter>
+    </ClCompile>
+    <ClCompile Include="cpplib\CPool.cpp">
+      <Filter>cpplib</Filter>
+    </ClCompile>
+    <ClCompile Include="cpplib\CppLib.cpp">
+      <Filter>cpplib</Filter>
+    </ClCompile>
+    <ClCompile Include="cpplib\CDeviceObject.cpp">
+      <Filter>cpplib</Filter>
+    </ClCompile>
+    <ClCompile Include="cpplib\CDriverObject.cpp">
+      <Filter>cpplib</Filter>
+    </ClCompile>
+    <ClCompile Include="cpplib\CFileObject.cpp">
+      <Filter>cpplib</Filter>
+    </ClCompile>
+    <ClCompile Include="cpplib\CIoStackLocation.cpp">
+      <Filter>cpplib</Filter>
+    </ClCompile>
+    <ClCompile Include="cpplib\CString.cpp">
+      <Filter>cpplib</Filter>
+    </ClCompile>
+    <ClCompile Include="cpplib\CUnicodeString.cpp">
+      <Filter>cpplib</Filter>
+    </ClCompile>
+    <ClCompile Include="cpplib\CDriverDispatch.cpp">
+      <Filter>cpplib</Filter>
+    </ClCompile>
+    <ClCompile Include="cpplib\CVersion.cpp">
+      <Filter>cpplib</Filter>
+    </ClCompile>
+    <ClCompile Include="CDriverEntry.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CSysmonDispatchEngine.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CReportRecord.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cpplib\CFilterDevice.cpp">
+      <Filter>cpplib</Filter>
+    </ClCompile>
+    <ClCompile Include="cpplib\CAttachDevice.cpp">
+      <Filter>cpplib</Filter>
+    </ClCompile>
+    <ClCompile Include="CDeviceExtension.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cpplib\CDispatchEngine.cpp">
+      <Filter>cpplib</Filter>
+    </ClCompile>
+    <ClCompile Include="cpplib\CMiniFltFilter.cpp">
+      <Filter>cpplib</Filter>
+    </ClCompile>
+    <ClCompile Include="CSysmonMiniFltFilter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CSysmonControl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cpplib\CSysmonBase.cpp">
+      <Filter>cpplib</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
